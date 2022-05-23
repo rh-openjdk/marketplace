@@ -27,13 +27,13 @@
                     "package": {
                         "name": "java-1.8.0-openjdk-portable-1.8.0.332.b09-1.portable.jdk.el.x86_64.tar.xz",
                         "link": "https://openjdk-sources.osci.io/marketplace/8/java-1.8.0-openjdk-portable-1.8.0.332.b09-1.portable.jdk.el.x86_64.tar.xz",
-                        "sha265sum": "6a8e76a95965bc7d0a6f5ed52e3e32013c5492ed03e28cbdd743fa316ae81f99",
+                        "sha265sum": "6a8e76a95965bc7d0a6f5ed52e3e32013c5492ed03e28cbdd743fa316ae81f99"
                     },
                     "timestamp": "2022-05-23T04:00:00Z",
                     "scm_ref": "shenandoah-jdk8u332-b09",
                     "openjdk_scm_ref": "shenandoah-jdk8u332-b09",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD",
+                    "aqavit_results_link": "TBD"
                 },
                 {
                     "os": "linux",
@@ -43,13 +43,13 @@
                     "package": {
                         "name": "java-1.8.0-openjdk-portable-1.8.0.332.b09-1.portable.jre.el.x86_64.tar.xz",
                         "link": "https://openjdk-sources.osci.io/marketplace/8/java-1.8.0-openjdk-portable-1.8.0.332.b09-1.portable.jre.el.x86_64.tar.xz",
-                        "sha265sum": "44a04dfc7b4a145849f2d6837fe94a3344336fac236a549b9d991288f2781a0f",
+                        "sha265sum": "44a04dfc7b4a145849f2d6837fe94a3344336fac236a549b9d991288f2781a0f"
                     },
                     "timestamp": "2022-05-23T04:00:00Z",
                     "scm_ref": "shenandoah-jdk8u332-b09",
                     "openjdk_scm_ref": "shenandoah-jdk8u332-b09",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD",
+                    "aqavit_results_link": "TBD"
                 },
                 {
                     "os": "linux",
@@ -59,13 +59,13 @@
                     "package": {
                         "name": "java-1.8.0-openjdk-portable-1.8.0.332.b09-1.portable.debuginfo.jdk.el.x86_64.tar.xz",
                         "link": "https://openjdk-sources.osci.io/marketplace/8/java-1.8.0-openjdk-portable-1.8.0.332.b09-1.portable.debuginfo.jdk.el.x86_64.tar.xz",
-                        "sha265sum": "a7452196b9e603df5699481aa77d9fc3160ae921ce2e8894897a60f4f4219615",
+                        "sha265sum": "a7452196b9e603df5699481aa77d9fc3160ae921ce2e8894897a60f4f4219615"
                     },
                     "timestamp": "2022-05-23T04:00:00Z",
                     "scm_ref": "shenandoah-jdk8u332-b09",
                     "openjdk_scm_ref": "shenandoah-jdk8u332-b09",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD",
+                    "aqavit_results_link": "TBD"
                 },
                 {
                     "os": "windows",
@@ -75,13 +75,13 @@
                     "package": {
                         "name": "java-1.8.0-openjdk-1.8.0.332-2.b09.redhat.windows.x86_64.zip",
                         "link": "https://openjdk-sources.osci.io/marketplace/8/java-1.8.0-openjdk-1.8.0.332-2.b09.redhat.windows.x86_64.zip",
-                        "sha265sum": "26cb05435716de1b35a9d4147b21d3d2589954befbdf1e235ada64ac02931d29",
+                        "sha265sum": "26cb05435716de1b35a9d4147b21d3d2589954befbdf1e235ada64ac02931d29"
                     },
                     "timestamp": "2022-05-23T04:00:00Z",
                     "scm_ref": "shenandoah-jdk8u332-b09",
                     "openjdk_scm_ref": "shenandoah-jdk8u332-b09",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD",
+                    "aqavit_results_link": "TBD"
                 },
                 {
                     "os": "windows",
@@ -91,13 +91,13 @@
                     "package": {
                         "name": "java-1.8.0-openjdk-jre-1.8.0.332-2.b09.redhat.windows.x86_64.zip",
                         "link": "https://openjdk-sources.osci.io/marketplace/8/java-1.8.0-openjdk-jre-1.8.0.332-2.b09.redhat.windows.x86_64.zip",
-                        "sha265sum": "9725c20e31b6e3f6b69ccb2c276d151d2d8c213ae39906064fed77d99cf94698",
+                        "sha265sum": "9725c20e31b6e3f6b69ccb2c276d151d2d8c213ae39906064fed77d99cf94698"
                     },
                     "timestamp": "2022-05-23T04:00:00Z",
                     "scm_ref": "shenandoah-jdk8u332-b09",
                     "openjdk_scm_ref": "shenandoah-jdk8u332-b09",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD",
+                    "aqavit_results_link": "TBD"
                 },
                 {
                     "os": "windows",
@@ -107,13 +107,13 @@
                     "package": {
                         "name": "java-1.8.0-openjdk-1.8.0.332-2.b09.redhat.windows.x86_64.debuginfo.zip",
                         "link": "https://openjdk-sources.osci.io/marketplace/8/java-1.8.0-openjdk-1.8.0.332-2.b09.redhat.windows.x86_64.debuginfo.zip",
-                        "sha265sum": "11c402400f8a21fb8100e6467642d2e01ddde273488cea4c2a0574f16256638b",
+                        "sha265sum": "11c402400f8a21fb8100e6467642d2e01ddde273488cea4c2a0574f16256638b"
                     },
                     "timestamp": "2022-05-23T04:00:00Z",
                     "scm_ref": "shenandoah-jdk8u332-b09",
                     "openjdk_scm_ref": "shenandoah-jdk8u332-b09",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD",
+                    "aqavit_results_link": "TBD"
                 }
             ]
         }
