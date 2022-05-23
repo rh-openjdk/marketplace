@@ -1,0 +1,121 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-17.0.3+7",
+            "last_updated_timestamp": "2022-05-23T04:00:00Z",
+            "vendor": "redhat",
+            "openjdk_version_data": {
+                "major": 17,
+                "minor": 0,
+                "security": 3,
+                "patch": null,
+                "pre": null,
+                "build": 7,
+                "optional": null,
+                "openjdk_version": "17.0.3+7"
+            },
+            "source": {
+                "name": "java-17-openjdk-17.0.3.0.6-3.src.zip",
+                "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.src.zip"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.3.0.6-3.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.portable.jdk.el.x86_64.tar.xz",
+                        "sha265sum": "6fdc9a701b828a057a6239e9fe62f250320f64f53c7eec2e22f6db27e2552203",
+                    },
+                    "timestamp": "2022-05-23T04:00:00Z",
+                    "scm_ref": "jdk-17.0.3+7",
+                    "openjdk_scm_ref": "jdk-17.0.3+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "TBD",
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.3.0.6-3.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.portable.jre.el.x86_64.tar.xz",
+                        "sha265sum": "f61c00e03ca65eaf53a0e7e6de9c6e34e74c450bb715dd8d4d96f78963a4c824",
+                    },
+                    "timestamp": "2022-05-23T04:00:00Z",
+                    "scm_ref": "jdk-17.0.3+7",
+                    "openjdk_scm_ref": "jdk-17.0.3+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "TBD",
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "debugimage",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.3.0.6-3.portable.debuginfo.jdk.el.x86_64.tar.xz",
+                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.portable.debuginfo.jdk.el.x86_64.tar.xz",
+                        "sha265sum": "bb1883884bc57877797576e4eecb3196b46b1e5953d175f5a2978e82988ae0ad",
+                    },
+                    "timestamp": "2022-05-23T04:00:00Z",
+                    "scm_ref": "jdk-17.0.3+7",
+                    "openjdk_scm_ref": "jdk-17.0.3+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "TBD",
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.3.0.6-3.win.x86_64.zip",
+                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.win.x86_64.zip",
+                        "sha265sum": "01c0a56b16868733480778cf131f6c4322196786bdcc8966de0b022c9dd3e7fc",
+                    },
+                    "timestamp": "2022-05-23T04:00:00Z",
+                    "scm_ref": "jdk-17.0.3+7",
+                    "openjdk_scm_ref": "jdk-17.0.3+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "TBD",
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.3.0.6-3.jre.win.x86_64.zip",
+                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.jre.win.x86_64.zip",
+                        "sha265sum": "8f257c008e66e61e9b68119fb9552e39ee7671407e5ba13bef4e1a3df2997534",
+                    },
+                    "timestamp": "2022-05-23T04:00:00Z",
+                    "scm_ref": "jdk-17.0.3+7",
+                    "openjdk_scm_ref": "jdk-17.0.3+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "TBD",
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "debugimage",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.3.0.6-3.win.x86_64.debuginfo.zip",
+                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.win.x86_64.debuginfo.zip",
+                        "sha265sum": "008cfa56028bc58ce4c574dfec198e826e798290f6e4f68167aa1cf836a424f6",
+                    },
+                    "timestamp": "2022-05-23T04:00:00Z",
+                    "scm_ref": "jdk-17.0.3+7",
+                    "openjdk_scm_ref": "jdk-17.0.3+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "TBD",
+                }
+            ]
+        }
+    ]
+}
