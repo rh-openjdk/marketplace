@@ -1,0 +1,26 @@
+name: Validate Red Hat Data
+
+on:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  call-adoptium-verifier:
+    uses: adoptium/marketplace-data/.github/workflows/validate-data.yml@main
+    with:
+      public-key: |
+        -----BEGIN PUBLIC KEY-----
+        MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoWlAyGsyYfaE42vvMjr0
+        7TZqQdHbVx3r6rxPVjRdgmgFM9UpBmF5ei8Kkf6mbUFLUdWLrAz1Y6J2uHP5uMgV
+        Hnm3D3Oox/AHwt5Ei/U8xkw3VgUUp5PfQY7ZZFJmTbv7QQcKa5LfqJHLz6tXucuc
+        F7vZdnJGpm3HUBJIBxhVu0rz7SpQD9QcGq/gBQgmIaFN3jIW9N3NH1ox1GuDJxQw
+        8xAjYBBX7cihk9CM/6HO73Qq2jptPWC/t0SyUrPWb+DOlNNRK6B8J9nCn7BRaXQq
+        lfpeoGcr7VqvNQtCHIkyp3+tM2AARp8gOH3202Cm4Yp6J6X8Xyp729KSyn/Fx07t
+        hKMMw1fFyKthTVS4g1nlVLCvVPMgJFOe1kmrkzAt8y2Tw7ouwEjZ+yTqBI1Law0R
+        4IkS67lF+QPkMo/ashlC+HwPYSP7dj60P3hzzJkbbaJ2JYgZ8iBRAP0adFvotGVy
+        FO+gyRxKtjoPlLcAhstIr6dJq55w11MradCeOfQ3/FT+X/oy/9SqexnH0uoP8/jE
+        CHHM4PcFLslt9MqjgrsdoTO9+TplUviMBq7Q3bZvma5THvPn7lvKdPmhfMFQy1cD
+        1tNswGNVkkkRVXfMYbGCtoI31T4/VFhiXS6mDUjbPG6zcIo/RaRn9l1GBIRN82sw
+        7KQA0we/i/+5e+hyfifYQP0CAwEAAQ==
+        -----END PUBLIC KEY-----
