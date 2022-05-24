@@ -52,22 +52,6 @@
                     "aqavit_results_link": "TBD"
                 },
                 {
-                    "os": "linux",
-                    "architecture": "x64",
-                    "image_type": "debugimage",
-                    "jvm_impl": "hotspot",
-                    "package": {
-                        "name": "java-11-openjdk-11.0.15.0.9-3.portable.debuginfo.jdk.el.x86_64.tar.xz",
-                        "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.9-3.portable.debuginfo.jdk.el.x86_64.tar.xz",
-                        "sha265sum": "d1899a910713bc88a1aa28129ba53526cb50b24cbf5b25807f0ca614c40897ff"
-                    },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-11.0.15+10",
-                    "openjdk_scm_ref": "jdk-11.0.15+10",
-                    "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
-                },
-                {
                     "os": "windows",
                     "architecture": "x64",
                     "image_type": "jdk",
@@ -92,22 +76,6 @@
                         "name": "java-11-openjdk-jre-11.0.15.9-4.windows.redhat.x86_64.zip",
                         "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-jre-11.0.15.9-4.windows.redhat.x86_64.zip",
                         "sha265sum": "4e41279d2378c7f9f34b9121aca7606acb235b927b6806300b4356b5010a6458"
-                    },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-11.0.15+10",
-                    "openjdk_scm_ref": "jdk-11.0.15+10",
-                    "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
-                },
-                {
-                    "os": "windows",
-                    "architecture": "x64",
-                    "image_type": "debugimage",
-                    "jvm_impl": "hotspot",
-                    "package": {
-                        "name": "java-11-openjdk-11.0.15.9-4.windows.redhat.x86_64.debuginfo.zip",
-                        "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.9-4.windows.redhat.x86_64.debuginfo.zip",
-                        "sha265sum": "54bdfd28876bf8d8e4a8db5bc0f68a1fe17711bac908f62a65b4a06f5ce0923a"
                     },
                     "timestamp": "2022-05-23T04:00:00Z",
                     "scm_ref": "jdk-11.0.15+10",
