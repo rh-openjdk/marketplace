@@ -52,22 +52,6 @@
                     "aqavit_results_link": "TBD"
                 },
                 {
-                    "os": "linux",
-                    "architecture": "x64",
-                    "image_type": "debugimage",
-                    "jvm_impl": "hotspot",
-                    "package": {
-                        "name": "java-17-openjdk-17.0.3.0.6-3.portable.debuginfo.jdk.el.x86_64.tar.xz",
-                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.portable.debuginfo.jdk.el.x86_64.tar.xz",
-                        "sha265sum": "bb1883884bc57877797576e4eecb3196b46b1e5953d175f5a2978e82988ae0ad"
-                    },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-17.0.3+7",
-                    "openjdk_scm_ref": "jdk-17.0.3+7",
-                    "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
-                },
-                {
                     "os": "windows",
                     "architecture": "x64",
                     "image_type": "jdk",
@@ -92,22 +76,6 @@
                         "name": "java-17-openjdk-17.0.3.0.6-3.jre.win.x86_64.zip",
                         "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.jre.win.x86_64.zip",
                         "sha265sum": "8f257c008e66e61e9b68119fb9552e39ee7671407e5ba13bef4e1a3df2997534"
-                    },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-17.0.3+7",
-                    "openjdk_scm_ref": "jdk-17.0.3+7",
-                    "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
-                },
-                {
-                    "os": "windows",
-                    "architecture": "x64",
-                    "image_type": "debugimage",
-                    "jvm_impl": "hotspot",
-                    "package": {
-                        "name": "java-17-openjdk-17.0.3.0.6-3.win.x86_64.debuginfo.zip",
-                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.win.x86_64.debuginfo.zip",
-                        "sha265sum": "008cfa56028bc58ce4c574dfec198e826e798290f6e4f68167aa1cf836a424f6"
                     },
                     "timestamp": "2022-05-23T04:00:00Z",
                     "scm_ref": "jdk-17.0.3+7",
