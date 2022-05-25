@@ -1,8 +1,8 @@
 {
     "releases": [
         {
-            "release_name": "jdk-11.0.15+9",
-            "last_updated_timestamp": "2022-05-23T04:00:00Z",
+            "release_name": "jdk-11.0.15+10_2",
+            "last_updated_timestamp": "2022-05-25T04:00:00Z",
             "vendor": "redhat",
             "openjdk_version_data": {
                 "major": 11,
@@ -15,8 +15,8 @@
                 "openjdk_version": "11.0.15+10"
             },
             "source": {
-                "name": "java-11-openjdk-11.0.15.9-4.src.zip",
-                "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.9-4.src.zip"
+                "name": "java-11-openjdk-11.0.15.0.10-2.portable.jdk.el.src.tar.xz",
+                "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.10-2.portable.jdk.el.src.tar.xz"
             },
             "binaries": [
                 {
@@ -25,15 +25,15 @@
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "java-11-openjdk-11.0.15.0.9-3.portable.jdk.el.x86_64.tar.xz",
-                        "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.9-3.portable.jdk.el.x86_64.tar.xz",
-                        "sha265sum": "568c3fe3fe2fe02b688bd265b0ef0389a3fe2747102bbfc344bbd5dd14a00492"
+                        "name": "java-11-openjdk-11.0.15.0.10-2.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.10-2.portable.jdk.el.x86_64.tar.xz",
+                        "sha265sum": "7e396f359d6e49334752e77c4970e6a172fd341c3a94570a914afb3e59563aa4"
                     },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-11.0.15+10",
+                    "timestamp": "2022-05-25T04:00:00Z",
+                    "scm_ref": "jdk-11.0.15+10_2",
                     "openjdk_scm_ref": "jdk-11.0.15+10",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.10-2.portable.jdk.el.x86_64.cert.tar.gz"
                 },
                 {
                     "os": "linux",
@@ -41,47 +41,46 @@
                     "image_type": "jre",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "java-11-openjdk-11.0.15.0.9-3.portable.jre.el.x86_64.tar.xz",
-                        "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.9-3.portable.jre.el.x86_64.tar.xz",
-                        "sha265sum": "c04549e41136128c11a01dcac1e229a16dabdb7811b655312ddd39e0cae3e0c0"
+                        "name": "java-11-openjdk-11.0.15.0.10-2.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.10-2.portable.jre.el.x86_64.tar.xz",
+                        "sha265sum": "f438ad7035b243f06214b4c199b55fbce878bb11b3d1915ce9a17d94588eab11"
                     },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-11.0.15+10",
+                    "timestamp": "2022-05-25T04:00:00Z",
+                    "scm_ref": "jdk-11.0.15+10_2",
                     "openjdk_scm_ref": "jdk-11.0.15+10",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
-                },
-                {
-                    "os": "windows",
-                    "architecture": "x64",
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.10-2.portable.jdk.el.x86_64.cert.tar.gz"
+                },{
+                    "os": "linux",
+                    "architecture": "aarch64",
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "java-11-openjdk-11.0.15.9-4.windows.redhat.x86_64.zip",
-                        "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.9-4.windows.redhat.x86_64.zip",
-                        "sha265sum": "4db0b7457be9f6722be0f8f63470bfcbaca0e1a2d246e0f3a08c81910db1200d"
+                        "name": "java-11-openjdk-11.0.15.0.10-2.portable.jdk.el.aarch64.tar.xz",
+                        "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.10-2.portable.jdk.el.aarch64.tar.xz",
+                        "sha265sum": "f381fd600283c73475cf67c51a42e4d231a5fc16d35833c9a6272f668825c349"
                     },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-11.0.15+10",
+                    "timestamp": "2022-05-25T04:00:00Z",
+                    "scm_ref": "jdk-11.0.15+10_2",
                     "openjdk_scm_ref": "jdk-11.0.15+10",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.10-2.portable.jdk.el.aarch64.cert.tar.gz"
                 },
                 {
-                    "os": "windows",
-                    "architecture": "x64",
+                    "os": "linux",
+                    "architecture": "aarch64",
                     "image_type": "jre",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "java-11-openjdk-jre-11.0.15.9-4.windows.redhat.x86_64.zip",
-                        "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-jre-11.0.15.9-4.windows.redhat.x86_64.zip",
-                        "sha265sum": "4e41279d2378c7f9f34b9121aca7606acb235b927b6806300b4356b5010a6458"
+                        "name": "java-11-openjdk-11.0.15.0.10-2.portable.jre.el.aarch64.tar.xz",
+                        "link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.10-2.portable.jre.el.aarch64.tar.xz",
+                        "sha265sum": "f438ad7035b243f06214b4c199b55fbce878bb11b3d1915ce9a17d94588eab11"
                     },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-11.0.15+10",
+                    "timestamp": "2022-05-25T04:00:00Z",
+                    "scm_ref": "jdk-11.0.15+10_2",
                     "openjdk_scm_ref": "jdk-11.0.15+10",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/11/java-11-openjdk-11.0.15.0.10-2.portable.jdk.el.aarch64.cert.tar.gz"
                 }
             ]
         }
