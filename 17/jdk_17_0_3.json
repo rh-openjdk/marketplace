@@ -1,8 +1,8 @@
 {
     "releases": [
         {
-            "release_name": "jdk-17.0.3+7",
-            "last_updated_timestamp": "2022-05-23T04:00:00Z",
+            "release_name": "jdk-17.0.3+7_4",
+            "last_updated_timestamp": "2022-05-25T04:00:00Z",
             "vendor": "redhat",
             "openjdk_version_data": {
                 "major": 17,
@@ -15,8 +15,8 @@
                 "openjdk_version": "17.0.3+7"
             },
             "source": {
-                "name": "java-17-openjdk-17.0.3.0.6-3.src.zip",
-                "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.src.zip"
+                "name": "java-17-openjdk-17.0.3.0.7-4.portable.jdk.el.src.tar.xz",
+                "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.7-4.portable.jdk.el.src.tar.xz"
             },
             "binaries": [
                 {
@@ -25,15 +25,15 @@
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "java-17-openjdk-17.0.3.0.6-3.portable.jdk.el.x86_64.tar.xz",
-                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.portable.jdk.el.x86_64.tar.xz",
-                        "sha265sum": "6fdc9a701b828a057a6239e9fe62f250320f64f53c7eec2e22f6db27e2552203"
+                        "name": "java-17-openjdk-17.0.3.0.7-4.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.7-4.portable.jdk.el.x86_64.tar.xz",
+                        "sha265sum": "47156f0eaba955602c9249054aa7e69a32e71de91d96359a0a3b672980d0f10d"
                     },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-17.0.3+7",
+                    "timestamp": "2022-05-25T04:00:00Z",
+                    "scm_ref": "jdk-17.0.3+7_4",
                     "openjdk_scm_ref": "jdk-17.0.3+7",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.7-4.portable.jdk.el.x86_64.cert.tar.gz"
                 },
                 {
                     "os": "linux",
@@ -41,47 +41,46 @@
                     "image_type": "jre",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "java-17-openjdk-17.0.3.0.6-3.portable.jre.el.x86_64.tar.xz",
-                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.portable.jre.el.x86_64.tar.xz",
-                        "sha265sum": "f61c00e03ca65eaf53a0e7e6de9c6e34e74c450bb715dd8d4d96f78963a4c824"
+                        "name": "java-17-openjdk-17.0.3.0.7-4.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.7-4.portable.jre.el.x86_64.tar.xz",
+                        "sha265sum": "8e6e8598c64ef508b0c09e08acc29c44c8644d0c47c7169daa702225ab225497"
                     },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-17.0.3+7",
+                    "timestamp": "2022-05-25T04:00:00Z",
+                    "scm_ref": "jdk-17.0.3+7_4",
                     "openjdk_scm_ref": "jdk-17.0.3+7",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
-                },
-                {
-                    "os": "windows",
-                    "architecture": "x64",
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.7-4.portable.jdk.el.x86_64.cert.tar.gz"
+                }, {
+                    "os": "linux",
+                    "architecture": "aarch64",
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "java-17-openjdk-17.0.3.0.6-3.win.x86_64.zip",
-                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.win.x86_64.zip",
-                        "sha265sum": "01c0a56b16868733480778cf131f6c4322196786bdcc8966de0b022c9dd3e7fc"
+                        "name": "java-17-openjdk-17.0.3.0.7-4.portable.jdk.el.aarch64.tar.xz",
+                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.7-4.portable.jdk.el.aarch64.tar.xz",
+                        "sha265sum": "44506335429f37a67db5385e3df02e0f5aceb1d6571c253f57eca925a0baea4d"
                     },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-17.0.3+7",
+                    "timestamp": "2022-05-25T04:00:00Z",
+                    "scm_ref": "jdk-17.0.3+7_4",
                     "openjdk_scm_ref": "jdk-17.0.3+7",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.7-4.portable.jdk.el.aarch64.cert.tar.gz"
                 },
                 {
-                    "os": "windows",
-                    "architecture": "x64",
+                    "os": "linux",
+                    "architecture": "aarch64",
                     "image_type": "jre",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "java-17-openjdk-17.0.3.0.6-3.jre.win.x86_64.zip",
-                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.6-3.jre.win.x86_64.zip",
-                        "sha265sum": "8f257c008e66e61e9b68119fb9552e39ee7671407e5ba13bef4e1a3df2997534"
+                        "name": "java-17-openjdk-17.0.3.0.7-4.portable.jre.el.aarch64.tar.xz",
+                        "link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.7-4.portable.jre.el.aarch64.tar.xz",
+                        "sha265sum": "c16933ca180a3df1a487c2cc946961c5893e382f54f8652728fe41064175cfdc"
                     },
-                    "timestamp": "2022-05-23T04:00:00Z",
-                    "scm_ref": "jdk-17.0.3+7",
+                    "timestamp": "2022-05-25T04:00:00Z",
+                    "scm_ref": "jdk-17.0.3+7_4",
                     "openjdk_scm_ref": "jdk-17.0.3+7",
                     "distribution": "redhat",
-                    "aqavit_results_link": "TBD"
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.3.0.7-4.portable.jdk.el.aarch64.cert.tar.gz"
                 }
             ]
         }
