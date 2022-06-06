@@ -1,7 +1,7 @@
 {
     "releases": [
         {
-            "release_name": "jdk8u332",
+            "release_name": "jdk8u332-b09_3",
             "last_updated_timestamp": "2022-05-25T04:00:00Z",
             "vendor": "redhat",
             "openjdk_version_data": {
