@@ -26,11 +26,11 @@ jobs:
         with:
           path: marketplace
         
-      # Install required packages (json_verify, openssl, base64)
+      # Install required packages (json_verify, openssl, base64, jdk)
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install yajl-tools openssl coreutils
+          sudo apt-get install yajl-tools openssl coreutils openjdk-8-jdk
           
       # Run verification script
       - name: Verify JSON files and signatures
