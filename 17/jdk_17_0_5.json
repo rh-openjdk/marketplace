@@ -1,0 +1,55 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-17.0.5+8_2",
+            "last_updated_timestamp": "2022-10-19T00:04:00Z",
+            "vendor": "redhat",
+            "openjdk_version_data": {
+                "major": 17,
+                "minor": 0,
+                "security": 5,
+                "patch": null,
+                "pre": null,
+                "build": 8,
+                "optional": null,
+                "openjdk_version": "17.0.5+8"
+            },
+            "source": {
+                "name": "java-17-openjdk-17.0.5.0.8-2.src.zip",
+                "link": "https://developers.redhat.com/content-gateway/internal/3873839"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.5.0.8-2.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/internal/3873837",
+                        "sha256sum": "fd213b3605d36fb3e779ee57c3e0935c98b626995bc1246b98f7ad204eab0c39"
+                    },
+                    "timestamp": "2022-10-19T00:04:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.5+8",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.5.0.8-2.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.5.0.8-2.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/internal/3873838",
+                        "sha256sum": "03b2640017bc1c25d625c511e50ef66629bc00c8a4d0f14e4b6fe414338d247d"
+                    },
+                    "timestamp": "2022-10-19T00:04:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.5+8",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/17/java-17-openjdk-17.0.5.0.8-2.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                }
+            ]
+        }
+    ]
+}
