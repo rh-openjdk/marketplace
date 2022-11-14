@@ -1,0 +1,55 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk8u352-b08_2",
+            "last_updated_timestamp": "2022-10-19T02:40:00Z",
+            "vendor": "redhat",
+            "openjdk_version_data": {
+                "major": 8,
+                "minor": 0,
+                "security": 352,
+                "patch": null,
+                "pre": null,
+                "build": 8,
+                "optional": null,
+                "openjdk_version": "jdk8u352-b08"
+            },
+            "source": {
+                "name": "java-1.8.0-openjdk-1.8.0.352-2.b08.src.zip",
+                "link": "https://developers.redhat.com/content-gateway/internal/3873825"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-portable-1.8.0.352.b08-1.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/internal/3873823",
+                        "sha256sum": "06f39070d6d6119badda126548395be4979b17c7311f9dd48c615c241724986d"
+                    },
+                    "timestamp": "2022-10-19T02:40:00Z",
+                    "openjdk_scm_ref": "shenandoah-jdk8u352-b08",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/8/java-1.8.0-openjdk-portable-1.8.0.352.b08-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-portable-1.8.0.352.b08-1.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/internal/3873824",
+                        "sha256sum": "99e2db62fe7208d255be540530fb4486b18890bcb6cb24b2b69c0206532008f1"
+                    },
+                    "timestamp": "2022-10-19T02:40:00Z",
+                    "openjdk_scm_ref": "shenandoah-jdk8u352-b08",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://openjdk-sources.osci.io/marketplace/8/java-1.8.0-openjdk-portable-1.8.0.352.b08-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                }
+            ]
+        }
+    ]
+}
