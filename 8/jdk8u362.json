@@ -1,0 +1,55 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk8u362-b08_1",
+            "last_updated_timestamp": "2023-01-24T13:11:14Z",
+            "vendor": "redhat",
+            "openjdk_version_data": {
+                "major": 8,
+                "minor": 0,
+                "security": 362,
+                "patch": null,
+                "pre": null,
+                "build": 8,
+                "optional": null,
+                "openjdk_version": "jdk8u362-b08"
+            },
+            "source": {
+                "name": "java-1.8.0-openjdk-1.8.0.362-1.b08.src.zip",
+                "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2023/java-1.8.0-openjdk-1.8.0.362-1.b08.src.zip"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-portable-1.8.0.362.b08-1.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2023/java-1.8.0-openjdk-portable-1.8.0.362.b08-1.portable.jdk.el.x86_64.tar.xz",
+                        "sha256sum": "21ca05c20aa3ec74ee4672edf825b828dd56b5c3b8e3da164d4e89b63087cf9f"
+                    },
+                    "timestamp": "2023-01-24T13:11:14Z",
+                    "openjdk_scm_ref": "shenandoah-jdk8u362-b08",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2023/java-1.8.0-openjdk-portable-1.8.0.362.b08-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-portable-1.8.0.362.b08-1.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2023/java-1.8.0-openjdk-portable-1.8.0.362.b08-1.portable.jre.el.x86_64.tar.xz",
+                        "sha256sum": "cb55f5d57e126a9ce2063d1c589c4d5a7415e0f011e3740f54e9990ef273fe29"
+                    },
+                    "timestamp": "2023-01-24T13:11:14Z",
+                    "openjdk_scm_ref": "shenandoah-jdk8u362-b08",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2023/java-1.8.0-openjdk-portable-1.8.0.362.b08-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                }
+            ]
+        }
+    ]
+}
