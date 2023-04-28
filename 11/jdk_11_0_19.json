@@ -59,6 +59,15 @@
                         "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2023/java-11-openjdk-11.0.19.7-1.windows.redhat.x86_64.zip",
                         "sha256sum": "f49c1d2ac5f518f481ce7ce9904822b87a7a1255cdb202adff8e316672f326a2"
                     },
+		    "installer": [
+			{
+			    "name": "java-11-openjdk-11.0.19.7-1.windows.redhat.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2023/java-11-openjdk-11.0.19.7-1.windows.redhat.x86_64.msi",
+			    "sha256sum": "caadc6e759bd7348379f5d329e149f094628b2a4eb5b9f6d2e98a96df060c08e",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2023/java-11-openjdk-11.0.19.7-1.windows.redhat.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
                     "timestamp": "2023-04-25T12:22:28Z",
                     "openjdk_scm_ref": "jdk-11.0.19+7",
                     "distribution": "redhat",
@@ -74,6 +83,15 @@
                         "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2023/java-11-openjdk-jre-11.0.19.7-1.windows.redhat.x86_64.zip",
                         "sha256sum": "b3b641ad2bce8ca4e98e6a49ecd33bee967f48deb932beee07011f4882f2626a"
                     },
+		    "installer": [
+			{
+			    "name": "java-11-openjdk-jre-11.0.19.7-1.windows.redhat.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2023/java-11-openjdk-jre-11.0.19.7-1.windows.redhat.x86_64.msi",
+			    "sha256sum": "51550872d6c9f3e0a7f2cd225c70736753c545f326fe18f19c419d385d54ee06",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2023/java-11-openjdk-jre-11.0.19.7-1.windows.redhat.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
                     "timestamp": "2023-04-25T12:22:51Z",
                     "openjdk_scm_ref": "jdk-11.0.19+7",
                     "distribution": "redhat",
