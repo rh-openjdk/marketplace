@@ -15,8 +15,8 @@
                 "openjdk_version": "jdk8u372-b07"
             },
             "source": {
-                "name": "",
-                "link": ""
+                "name": "java-1.8.0-openjdk-1.8.0.372-1.b07.src.zip",
+                "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2023/java-1.8.0-openjdk-1.8.0.372-1.b07.src.zip"
             },
             "binaries": [
                 {
