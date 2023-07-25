@@ -1,0 +1,107 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-17.0.8+7_1",
+            "last_updated_timestamp": "2023-04-28T21:26:00Z",
+            "vendor": "redhat",
+            "openjdk_version_data": {
+                "major": 17,
+                "minor": 0,
+                "security": 8,
+                "patch": null,
+                "pre": null,
+                "build": 7,
+                "optional": null,
+                "openjdk_version": "17.0.8+7"
+            },
+            "source": {
+                "name": "java-17-openjdk-17.0.8.0.7-1.src.zip",
+                "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.src.zip"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.8.0.7-1.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.src.zip",
+                        "sha256sum": "5dca6d711661faf2be6f2eb6c0da334f35f297247e26e8e13e00a8f918db03d0",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.portable.jdk.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2023-07-20T04:24:39Z",
+                    "openjdk_scm_ref": "jdk-17.0.8+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.src.zip"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.8.0.7-1.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.portable.jre.el.x86_64.tar.xz",
+                        "sha256sum": "99dd8466ccf0759ddb844ebad7c09d7dea5fac544aa563265b1e9ebcf9aa5754",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.portable.jre.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2023-07-20T04:24:39Z",
+                    "openjdk_scm_ref": "jdk-17.0.8+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.src.zip"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.8.0.7-1.win.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.win.x86_64.zip",
+                        "sha256sum": "2dfae87cf077f55bfd456253d8d7ad07830d8df61ab0db1346efa02071db08d8",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.win.x86_64.zip.sha256"
+                    },
+		    "installer": [
+			{
+			    "name": "java-17-openjdk-17.0.8.0.7-1.win.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.win.x86_64.msi",
+			    "sha256sum": "096550a1ae021cf1c41d3809f328045888670280eadbdced3425f3070030daed",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.win.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
+                    "timestamp": "2023-07-20T04:24:12Z",
+                    "openjdk_scm_ref": "jdk-17.0.8+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.win.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.8.0.7-1.jre.win.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.jre.win.x86_64.zip",
+                        "sha256sum": "fb9cb486adef61080de4febdead9e7b80c1c6f27c3b0cbdf62d2900f4ce36eda",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.jre.win.x86_64.zip.sha256"
+                    },
+		    "installer": [
+			{
+			    "name": "java-17-openjdk-17.0.8.0.7-1.jre.win.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.jre.win.x86_64.msi",
+			    "sha256sum": "910e7c45ac319da8db8a17322a8c50edef90b6b3a91b86b68f6cf7c4d1583e87",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.jre.win.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
+                    "timestamp": "2023-07-20T04:24:12Z",
+                    "openjdk_scm_ref": "jdk-17.0.8+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.win.x86_64.cert-merged.tar.gz"
+                }
+            ]
+        }
+    ]
+}
