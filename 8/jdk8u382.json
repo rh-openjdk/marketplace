@@ -25,15 +25,15 @@
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "java-1.8.0-openjdk-portable-1.8.0.382.b05-1.portable.jdk.el.x86_64.tar.xz",
-                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-portable-1.8.0.382.b05-1.portable.jdk.el.x86_64.tar.xz",
-                        "sha256sum": "0087acff0db87217c8570019bf0412068b3ade9e9154122f49e5cee369efd9f1",
-			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-portable-1.8.0.382.b05-1.portable.jdk.el.x86_64.tar.xz.sha256"
+                        "name": "java-1.8.0-openjdk-portable-1.8.0.382.b05-2.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-portable-1.8.0.382.b05-2.portable.jdk.el.x86_64.tar.xz",
+                        "sha256sum": "04c91f5f09ce7e0293ee4eaee83e221e09d243976b5ea54ad031c009ae818b8a",
+                        "sha256sum_link": ""
                     },
-                    "timestamp": "2023-07-20T04:22:49Z",
+                    "timestamp": "2023-07-25T04:43:16Z",
                     "openjdk_scm_ref": "shenandoah-jdk8u382-b05",
                     "distribution": "redhat",
-                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-portable-1.8.0.382.b05-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-portable-1.8.0.382.b05-2.portable.jdk.el.x86_64.cert-merged.tar.gz"
                 },
                 {
                     "os": "linux",
@@ -41,15 +41,15 @@
                     "image_type": "jre",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "java-1.8.0-openjdk-portable-1.8.0.382.b05-1.portable.jre.el.x86_64.tar.xz",
-                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-portable-1.8.0.382.b05-1.portable.jre.el.x86_64.tar.xz",
-                        "sha256sum": "31afa8c1419d96dfb19ccd3594e2a7d553e783af982a052793059ce5500457f9",
-			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-portable-1.8.0.382.b05-1.portable.jre.el.x86_64.tar.xz.sha256"
+                        "name": "java-1.8.0-openjdk-portable-1.8.0.382.b05-2.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-portable-1.8.0.382.b05-2.portable.jre.el.x86_64.tar.xz",
+                        "sha256sum": "b13d4bf1527ed1ed013f80c0316c7dabc1d8c14944ed944f6c58af308eba9c99",
+                        "sha256sum_link": ""
                     },
                     "timestamp": "2023-07-20T04:22:49Z",
                     "openjdk_scm_ref": "shenandoah-jdk8u382-b05",
                     "distribution": "redhat",
-                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-portable-1.8.0.382.b05-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-portable-1.8.0.382.b05-2.portable.jdk.el.x86_64.cert-merged.tar.gz"
                 },
                 {
                     "os": "windows",
@@ -60,17 +60,17 @@
                         "name": "java-1.8.0-openjdk-1.8.0.382-1.b05.redhat.windows.x86_64.zip",
                         "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-1.8.0.382-1.b05.redhat.windows.x86_64.zip",
                         "sha256sum": "bf6e371ce3c68d787ade71fe87350bbe4388c115de70bea17819c3e305e2f872",
-			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-1.8.0.382-1.b05.redhat.windows.x86_64.zip.sha256"
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-1.8.0.382-1.b05.redhat.windows.x86_64.zip.sha256"
                     },
-		    "installer": [
-			{
-			    "name": "java-1.8.0-openjdk-1.8.0.382-1.b05.redhat.windows.x86_64.msi",
-			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-1.8.0.382-1.b05.redhat.windows.x86_64.msi",
-			    "sha256sum": "202cc23fb4ca0a9ebacd91bc20b742b5290d105f4094d2adbad2b1e7b9c8312e",
-			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-1.8.0.382-1.b05.redhat.windows.x86_64.msi.sha256",
-			    "installer_type": "msi"
-			}
-		    ],
+                    "installer": [
+                        {
+                            "name": "java-1.8.0-openjdk-1.8.0.382-1.b05.redhat.windows.x86_64.msi",
+                            "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-1.8.0.382-1.b05.redhat.windows.x86_64.msi",
+                            "sha256sum": "202cc23fb4ca0a9ebacd91bc20b742b5290d105f4094d2adbad2b1e7b9c8312e",
+                            "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-1.8.0.382-1.b05.redhat.windows.x86_64.msi.sha256",
+                            "installer_type": "msi"
+                        }
+                    ],
                     "timestamp": "2023-07-20T04:22:49Z",
                     "openjdk_scm_ref": "shenandoah-jdk8u382-b05",
                     "distribution": "redhat",
@@ -85,7 +85,7 @@
                         "name": "java-1.8.0-openjdk-jre-1.8.0.382-1.b05.redhat.windows.x86_64.zip",
                         "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-jre-1.8.0.382-1.b05.redhat.windows.x86_64.zip",
                         "sha256sum": "3bca0dbb191f7727ede36e785a4711bd735a6cf329319b11f80492606ffce6b3",
-			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-jre-1.8.0.382-1.b05.redhat.windows.x86_64.zip.sha256"
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-1.8.0-openjdk-jre-1.8.0.382-1.b05.redhat.windows.x86_64.zip.sha256"
                     },
                     "timestamp": "2023-07-20T04:22:49Z",
                     "openjdk_scm_ref": "shenandoah-jdk8u382-b05",
