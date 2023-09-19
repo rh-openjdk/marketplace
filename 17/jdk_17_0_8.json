@@ -26,14 +26,14 @@
                     "jvm_impl": "hotspot",
                     "package": {
                         "name": "java-17-openjdk-17.0.8.0.7-1.portable.jdk.el.x86_64.tar.xz",
-                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.src.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.portable.jdk.el.x86_64.tar.xz",
                         "sha256sum": "5dca6d711661faf2be6f2eb6c0da334f35f297247e26e8e13e00a8f918db03d0",
 			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.portable.jdk.el.x86_64.tar.xz.sha256"
                     },
                     "timestamp": "2023-07-20T04:24:39Z",
                     "openjdk_scm_ref": "jdk-17.0.8+7",
                     "distribution": "redhat",
-                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.src.zip"
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
                 },
                 {
                     "os": "linux",
@@ -49,7 +49,7 @@
                     "timestamp": "2023-07-20T04:24:39Z",
                     "openjdk_scm_ref": "jdk-17.0.8+7",
                     "distribution": "redhat",
-                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.src.zip"
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/July_2023/java-17-openjdk-17.0.8.0.7-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
                 },
                 {
                     "os": "windows",
