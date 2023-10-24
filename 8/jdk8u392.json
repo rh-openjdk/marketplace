@@ -1,0 +1,98 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk8u392-b08_1",
+            "last_updated_timestamp": "2023-10-18T17:01:31Z",
+            "vendor": "redhat",
+            "openjdk_version_data": {
+                "major": 8,
+                "minor": 0,
+                "security": 392,
+                "patch": null,
+                "pre": null,
+                "build": 8,
+                "optional": null,
+                "openjdk_version": "jdk8u392-b08"
+            },
+            "source": {
+                "name": "java-1.8.0-openjdk-1.8.0.392-1.b08.src.zip",
+                "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-1.8.0.392-1.b08.src.zip"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-portable-1.8.0.392.b08-2.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-portable-1.8.0.392.b08-2.portable.jdk.el.x86_64.tar.xz",
+                        "sha256sum": "6dffd0b21484c0be30acff372e42bdbb53bbfc6ce0437adbcf809db7f9f53861",
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-portable-1.8.0.392.b08-2.portable.jdk.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2023-10-18T17:00:56Z",
+                    "openjdk_scm_ref": "shenandoah-jdk8u392-b08",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-portable-1.8.0.392.b08-2.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-portable-1.8.0.392.b08-2.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-portable-1.8.0.392.b08-2.portable.jre.el.x86_64.tar.xz",
+                        "sha256sum": "13c0625de24113486c0d8164d473efba367daf9ee45be0c2b70f859a4d0e0688",
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-portable-1.8.0.392.b08-2.portable.jre.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2023-10-18T17:00:56Z",
+                    "openjdk_scm_ref": "shenandoah-jdk8u392-b08",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-portable-1.8.0.392.b08-2.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64.zip",
+                        "sha256sum": "e708c19af9fa335ae66755b67bc49cdfa13f318c7400fa19162a8427043ffaeb",
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64.zip.sha256"
+                    },
+                    "installer": [
+                        {
+                            "name": "java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64.msi",
+                            "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64.msi",
+                            "sha256sum": "61c17c198a544151fe8b6533bb7011189ff8fe22be6feba9215ab589c05a9388",
+                            "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64.msi.sha256",
+                            "installer_type": "msi"
+                        }
+                    ],
+                    "timestamp": "2023-10-18T17:00:56Z",
+                    "openjdk_scm_ref": "shenandoah-jdk8u392-b08",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-jre-1.8.0.392-1.b08.redhat.windows.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-jre-1.8.0.392-1.b08.redhat.windows.x86_64.zip",
+                        "sha256sum": "1ed3548e3f9c15c3661184a8fc6a8455598f0037a1dd54fd5d43170700f3330c",
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-jre-1.8.0.392-1.b08.redhat.windows.x86_64.zip.sha256"
+                    },
+                    "timestamp": "2023-10-18T17:00:56Z",
+                    "openjdk_scm_ref": "shenandoah-jdk8u392-b08",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64.cert-merged.tar.gz"
+                }
+            ]
+        }
+    ]
+}
