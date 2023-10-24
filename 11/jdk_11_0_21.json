@@ -1,0 +1,107 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-11.0.21+9_1",
+            "last_updated_timestamp": "2023-10-18T17:01:52Z",
+            "vendor": "redhat",
+            "openjdk_version_data": {
+                "major": 11,
+                "minor": 0,
+                "security": 21,
+                "patch": null,
+                "pre": null,
+                "build": 9,
+                "optional": null,
+                "openjdk_version": "11.0.21+9"
+            },
+            "source": {
+                "name": "java-11-openjdk-11.0.21.9-1.src.zip",
+                "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.9-1.src.zip"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-11-openjdk-11.0.21.0.9-1.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.0.9-1.portable.jdk.el.x86_64.tar.xz",
+                        "sha256sum": "e04b8c4cdf7678863b11d5c46314ab2dfc9530e8f7ce2ced0092006ca967411b",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.0.9-1.portable.jdk.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2023-10-18T17:01:52Z",
+                    "openjdk_scm_ref": "jdk-11.0.21+9",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.0.9-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-11-openjdk-11.0.21.0.9-1.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.0.9-1.portable.jre.el.x86_64.tar.xz",
+                        "sha256sum": "dfe3523555fd5fab6fac66e3a6cd0dbbcfb409604a6cb06e4fd420fcc9cbbf0d",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.0.9-1.portable.jre.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2023-10-18T17:01:52Z",
+                    "openjdk_scm_ref": "jdk-11.0.21+9",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.0.9-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-11-openjdk-11.0.21.9-1.windows.redhat.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.9-1.windows.redhat.x86_64.zip",
+                        "sha256sum": "293b8a48fd9d52c088ae5b1e62cef46a4efaf251ef93deead8368e87f925c40d",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.9-1.windows.redhat.x86_64.zip.sha256"
+                    },
+		    "installer": [
+			{
+			    "name": "java-11-openjdk-11.0.21.9-1.windows.redhat.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.9-1.windows.redhat.x86_64.msi",
+			    "sha256sum": "433a9d167e9a0ed27dad9e308b14e04c29262adbdae969422d701005fddab031",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.9-1.windows.redhat.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
+                    "timestamp": "2023-10-18T17:01:31Z",
+                    "openjdk_scm_ref": "jdk-11.0.21+9",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.9-1.windows.redhat.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+			"name": "java-11-openjdk-jre-11.0.21.9-1.windows.redhat.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-jre-11.0.21.9-1.windows.redhat.x86_64.zip",
+                        "sha256sum": "dba9d6ef55960404e8c28dd6c8ff074e11f1913f062d374a16cc9631dd0a3110",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-jre-11.0.21.9-1.windows.redhat.x86_64.zip.sha256"
+                    },
+		    "installer": [
+			{
+			    "name": "java-11-openjdk-jre-11.0.21.9-1.windows.redhat.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-jre-11.0.21.9-1.windows.redhat.x86_64.msi",
+			    "sha256sum": "096b64240038cea6fbe99b152f9af7975da2ba1bc9273c598c006a5ef55f8e25",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-jre-11.0.21.9-1.windows.redhat.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
+                    "timestamp": "2023-10-18T17:01:31Z",
+                    "openjdk_scm_ref": "jdk-11.0.21+9",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2023/java-11-openjdk-11.0.21.9-1.windows.redhat.x86_64.cert-merged.tar.gz"
+                }
+            ]
+        }
+    ]
+}
