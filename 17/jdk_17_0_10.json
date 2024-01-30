@@ -56,6 +56,12 @@
                     "architecture": "x64",
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.10.0.7-2.win.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-2.win.x86_64.zip",
+                        "sha256sum": "26b798d9acbad8e8c3481a503c1963a5472039e979483fd2ec1e7cc00e06280e",
+	                "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-2.win.x86_64.zip.sha256"
+                    },
 		    "installer": [
 			{
 			    "name": "java-17-openjdk-17.0.10.0.7-2.win.x86_64.msi",
