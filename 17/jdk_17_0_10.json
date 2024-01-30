@@ -1,0 +1,101 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-17.0.10+7_1",
+            "last_updated_timestamp": "2024-01-25T17:33:16Z",
+            "vendor": "redhat",
+            "openjdk_version_data": {
+                "major": 17,
+                "minor": 0,
+                "security": 10,
+                "patch": null,
+                "pre": null,
+                "build": 7,
+                "optional": null,
+                "openjdk_version": "17.0.10+7"
+            },
+            "source": {
+                "name": "java-17-openjdk-17.0.10.0.7-2.src.zip",
+                "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-2.src.zip"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.10.0.7-1.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-1.portable.jdk.el.x86_64.tar.xz",
+                        "sha256sum": "c2ad735156b81b08fd4700559024e4a2fcd573412475ebaa6642615717dd5201",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-1.portable.jdk.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2024-01-25T17:02:12Z",
+                    "openjdk_scm_ref": "jdk-17.0.10+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.10.0.7-1.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-1.portable.jre.el.x86_64.tar.xz",
+                        "sha256sum": "2f4f5d107b20f376f43cfdbd1d5039a5a3cabf9f87ab7b2e01617d0341baa4f1",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-1.portable.jre.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2024-01-25T17:33:16Z",
+                    "openjdk_scm_ref": "jdk-17.0.10+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+		    "installer": [
+			{
+			    "name": "java-17-openjdk-17.0.10.0.7-2.win.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-2.win.x86_64.msi",
+			    "sha256sum": "220bff55274d0fecd8cd7692bd82a9956fbf2a613fa867d3a04a73a86133c9e4",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-2.win.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
+                    "timestamp": "2024-01-25T17:32:47Z",
+                    "openjdk_scm_ref": "jdk-17.0.10+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-2.win.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-17-openjdk-17.0.10.0.7-2.jre.win.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-2.jre.win.x86_64.zip",
+                        "sha256sum": "d6c9943b5fee990a60750340b5949c777e6ea5253645d7133abff334256e66a5",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-2.jre.win.x86_64.zip.sha256"
+                    },
+		    "installer": [
+			{
+			    "name": "java-17-openjdk-17.0.10.0.7-2.jre.win.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-2.jre.win.x86_64.msi",
+			    "sha256sum": "ab8f8f6741ef94042d0c101233ca952eeab1040db5f89d09d7d949d9cfcebebf",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-2.jre.win.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
+                    "timestamp": "2024-01-25T17:32:47Z",
+                    "openjdk_scm_ref": "jdk-17.0.10+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-17-openjdk-17.0.10.0.7-2.win.x86_64.cert-merged.tar.gz"
+                }
+            ]
+        }
+    ]
+}
