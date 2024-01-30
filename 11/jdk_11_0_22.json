@@ -1,0 +1,107 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-11.0.22+7_1",
+            "last_updated_timestamp": "2024-01-24T17:32:23Z",
+            "vendor": "redhat",
+            "openjdk_version_data": {
+                "major": 11,
+                "minor": 0,
+                "security": 22,
+                "patch": null,
+                "pre": null,
+                "build": 7,
+                "optional": null,
+                "openjdk_version": "11.0.22+7"
+            },
+            "source": {
+                "name": "java-11-openjdk-11.0.22.7-1.src.zip",
+                "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.7-1.src.zip"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-11-openjdk-11.0.22.0.7-1.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.0.7-1.portable.jdk.el.x86_64.tar.xz",
+                        "sha256sum": "d3004603a5256b15cea070b6e5197871df34bafd247304331c47ff89ea356906",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.0.7-1.portable.jdk.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2024-01-25T17:38:29Z",
+                    "openjdk_scm_ref": "jdk-11.0.22+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.0.7-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-11-openjdk-11.0.22.0.7-1.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.0.7-1.portable.jre.el.x86_64.tar.xz",
+                        "sha256sum": "252243ceec8085e1f7edd70f20eba219924e6f6a02d20f8243616c162b5ced3e",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.0.7-1.portable.jre.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2024-01-25T17:32:23Z",
+                    "openjdk_scm_ref": "jdk-11.0.22+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.0.7-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-11-openjdk-11.0.22.7-1.windows.redhat.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.7-1.windows.redhat.x86_64.zip",
+                        "sha256sum": "555b4db14be4a21c89f1c084ef3915d1847e74b4551b5535365ccd7b95cf561b",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.7-1.windows.redhat.x86_64.zip.sha256"
+                    },
+		    "installer": [
+			{
+			    "name": "java-11-openjdk-11.0.22.7-1.windows.redhat.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.7-1.windows.redhat.x86_64.msi",
+			    "sha256sum": "125dcc423e265c061e8ebe65e49af30a9ed2d63581587f33eafe8534ca07190f",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.7-1.windows.redhat.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
+                    "timestamp": "2024-01-25T17:32:00Z",
+                    "openjdk_scm_ref": "jdk-11.0.22+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.7-1.windows.redhat.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+			"name": "java-11-openjdk-jre-11.0.22.7-1.windows.redhat.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-jre-11.0.22.7-1.windows.redhat.x86_64.zip",
+                        "sha256sum": "0da7e0aca91df4d40ad57d0e533a9f5257cab1247f1abc527d65013291ad8c37",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-jre-11.0.22.7-1.windows.redhat.x86_64.zip.sha256"
+                    },
+		    "installer": [
+			{
+			    "name": "java-11-openjdk-jre-11.0.22.7-1.windows.redhat.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-jre-11.0.22.7-1.windows.redhat.x86_64.msi",
+			    "sha256sum": "0539ff4a67339fb6615607017a0e0fa603454711be2eeaa26a48f97fdc357889",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-jre-11.0.22.7-1.windows.redhat.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
+                    "timestamp": "2024-01-25T17:32:00Z",
+                    "openjdk_scm_ref": "jdk-11.0.22+7",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/January_2024/java-11-openjdk-11.0.22.7-1.windows.redhat.x86_64.cert-merged.tar.gz"
+                }
+            ]
+        }
+    ]
+}
