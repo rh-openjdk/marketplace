@@ -1,0 +1,107 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-21.0.3+9_1",
+            "last_updated_timestamp": "2024-04-18T17:32:54Z",
+            "vendor": "redhat",
+            "openjdk_version_data": {
+                "major": 21,
+                "minor": 0,
+                "security": 3,
+                "patch": null,
+                "pre": null,
+                "build": 9,
+                "optional": null,
+                "openjdk_version": "21.0.3+9"
+            },
+            "source": {
+                "name": "java-21-openjdk-21.0.3.0.9-1.src.zip",
+                "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.src.zip"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-21-openjdk-21.0.3.0.9-1.portable.jdk.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.portable.jdk.x86_64.tar.xz",
+                        "sha256sum": "be9fee0fe9bf726ab056bf391e05e7a75f6dbf62f32f33bab32d8c2b3e01d0b6",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.portable.jdk.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2024-04-18T17:32:29Z",
+                    "openjdk_scm_ref": "jdk-21.0.3+9",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.portable.jdk.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-21-openjdk-21.0.3.0.9-1.portable.jre.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.portable.jre.x86_64.tar.xz",
+                        "sha256sum": "f7f0461aff4313b03356fc1d532251cafde33ee379fbda6c210c267a2c5919c8",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.portable.jre.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2024-04-18T17:32:54Z",
+                    "openjdk_scm_ref": "jdk-21.0.3+9",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.portable.jdk.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-21-openjdk-21.0.3.0.9-1.win.jdk.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.win.jdk.x86_64.zip",
+                        "sha256sum": "5b530c0d280e79806b5b51e05934659648b4dfc8c995ddf043d6cec21c02cb2a",
+	                "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.win.jdk.x86_64.zip.sha256"
+                    },
+		    "installer": [
+			{
+			    "name": "java-21-openjdk-21.0.3.0.9-1.win.jdk.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.win.jdk.x86_64.msi",
+			    "sha256sum": "716f0f8952f78c4d5740b142af11defd4f40fad516e814fd28af65b428e85f6d",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.win.jdk.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
+                    "timestamp": "2024-04-18T17:33:42Z",
+                    "openjdk_scm_ref": "jdk-21.0.3+9",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.win.jdk.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-21-openjdk-21.0.3.0.9-1.win.jre.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.win.jre.x86_64.zip",
+                        "sha256sum": "ecc64ae69632fb863dfe22e9657dc2fa1eac13ff62d797bae8a0820d20b221a9",
+			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.win.jre.x86_64.zip.sha256"
+                    },
+		    "installer": [
+			{
+			    "name": "java-21-openjdk-21.0.3.0.9-1.win.jre.x86_64.msi",
+			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.win.jre.x86_64.msi",
+			    "sha256sum": "a6823ffb5586e23293089203fbe52eb3ba24f903736d6c6669198a68d330a9b8",
+			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.win.jre.x86_64.msi.sha256",
+			    "installer_type": "msi"
+			}
+		    ],
+                    "timestamp": "2024-04-18T17:32:29Z",
+                    "openjdk_scm_ref": "jdk-21.0.3+9",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2024/java-21-openjdk-21.0.3.0.9-1.win.jdk.x86_64.cert-merged.tar.gz"
+                }
+            ]
+        }
+    ]
+}
