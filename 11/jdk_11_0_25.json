@@ -28,7 +28,7 @@
                         "name": "java-11-openjdk-11.0.25.0.9-1.portable.jdk.el.x86_64.tar.xz",
                         "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.portable.jdk.el.x86_64.tar.xz",
                         "sha256sum": "c88ad51f902661e9fc6d2bb99d3d44fcbddb992ef71d402fd7ad0273ed4cdeee",
-			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.portable.jdk.el.x86_64.tar.xz.sha256"
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.portable.jdk.el.x86_64.tar.xz.sha256"
                     },
                     "timestamp": "2024-10-24T14:47:33Z",
                     "openjdk_scm_ref": "jdk-11.0.25+9",
@@ -44,7 +44,7 @@
                         "name": "java-11-openjdk-11.0.25.0.9-1.portable.jre.el.x86_64.tar.xz",
                         "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.portable.jre.el.x86_64.tar.xz",
                         "sha256sum": "05db6e5abaf99e691985509fb2147d9cd0bb8095dfdfb60d65e260448d021183",
-			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.portable.jre.el.x86_64.tar.xz.sha256"
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.portable.jre.el.x86_64.tar.xz.sha256"
                     },
                     "timestamp": "2024-10-24T14:47:33Z",
                     "openjdk_scm_ref": "jdk-11.0.25+9",
@@ -60,17 +60,17 @@
                         "name": "java-11-openjdk-11.0.25.0.9-1.win.jdk.x86_64.zip",
                         "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jdk.x86_64.zip",
                         "sha256sum": "94682c9d0edb367ad492e6ead502b6f45b0bfe6c2f08291c9ce6ea8f47742eff",
-			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jdk.x86_64.zip.sha256"
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jdk.x86_64.zip.sha256"
                     },
-		    "installer": [
-			{
-			    "name": "java-11-openjdk-11.0.25.0.9-1.win.jdk.x86_64.msi",
-			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jdk.x86_64.msi",
-			    "sha256sum": "e5295d5b8332132f77a24708d93f09f18d37b617550c3fa2c4c55b95898194d6",
-			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jdk.x86_64.msi.sha256",
-			    "installer_type": "msi"
-			}
-		    ],
+                    "installer": [
+                        {
+                            "name": "java-11-openjdk-11.0.25.0.9-1.win.jdk.x86_64.msi",
+                            "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jdk.x86_64.msi",
+                            "sha256sum": "e5295d5b8332132f77a24708d93f09f18d37b617550c3fa2c4c55b95898194d6",
+                            "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jdk.x86_64.msi.sha256",
+                            "installer_type": "msi"
+                        }
+                    ],
                     "timestamp": "2024-10-24T14:47:10Z",
                     "openjdk_scm_ref": "jdk-11.0.25+9",
                     "distribution": "redhat",
@@ -82,20 +82,20 @@
                     "image_type": "jre",
                     "jvm_impl": "hotspot",
                     "package": {
-			"name": "java-11-openjdk-11.0.25.0.9-1.win.jre.x86_64.zip",
+                        "name": "java-11-openjdk-11.0.25.0.9-1.win.jre.x86_64.zip",
                         "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jre.x86_64.zip",
                         "sha256sum": "f3c5b7c12752082e2f6c0e0051c20027261673ceff5513814634705027d299ba",
-			"sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jre.x86_64.zip.sha256"
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jre.x86_64.zip.sha256"
                     },
-		    "installer": [
-			{
-			    "name": "java-11-openjdk-11.0.25.0.9-1.win.jre.x86_64.msi",
-			    "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jre.x86_64.msi",
-			    "sha256sum": "3fa8555794ac79689877726a2b3190aa235c1433f34890b5e595f5e873c9040b",
-			    "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jre.x86_64.msi.sha256",
-			    "installer_type": "msi"
-			}
-		    ],
+                    "installer": [
+                        {
+                            "name": "java-11-openjdk-11.0.25.0.9-1.win.jre.x86_64.msi",
+                            "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jre.x86_64.msi",
+                            "sha256sum": "3fa8555794ac79689877726a2b3190aa235c1433f34890b5e595f5e873c9040b",
+                            "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/October_2024/java-11-openjdk-11.0.25.0.9-1.win.jre.x86_64.msi.sha256",
+                            "installer_type": "msi"
+                        }
+                    ],
                     "timestamp": "2024-10-24T14:47:10Z",
                     "openjdk_scm_ref": "jdk-11.0.25+9",
                     "distribution": "redhat",
