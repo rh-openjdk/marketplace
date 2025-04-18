@@ -1,0 +1,98 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk8u452-b09_1",
+            "last_updated_timestamp": "2025-04-16T17:49:51Z",
+            "vendor": "redhat",
+            "openjdk_version_data": {
+                "major": 8,
+                "minor": 0,
+                "security": 452,
+                "patch": null,
+                "pre": null,
+                "build": 9,
+                "optional": null,
+                "openjdk_version": "jdk8u452-b09"
+            },
+            "source": {
+                "name": "java-1.8.0-openjdk-1.8.0.452.b09-1.src.zip",
+                "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-1.8.0.452.b09-1.src.zip"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-portable-1.8.0.452.b09-1.portable.jdk.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-portable-1.8.0.452.b09-1.portable.jdk.el.x86_64.tar.xz",
+                        "sha256sum": "91909404884dda9cfd1e897ad863d564973f329662b9586461fe0b006bd5ae8d",
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-portable-1.8.0.452.b09-1.portable.jdk.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2025-04-16T17:49:15Z",
+                    "openjdk_scm_ref": "shenandoah8u452-b09",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-portable-1.8.0.452.b09-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-portable-1.8.0.452.b09-1.portable.jre.el.x86_64.tar.xz",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-portable-1.8.0.452.b09-1.portable.jre.el.x86_64.tar.xz",
+                        "sha256sum": "b1465e641889dacbf76d0335b0122f7c68d6bb7223fd012efef495255f2c2d35",
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-portable-1.8.0.452.b09-1.portable.jre.el.x86_64.tar.xz.sha256"
+                    },
+                    "timestamp": "2025-04-16T17:49:15Z",
+                    "openjdk_scm_ref": "shenandoah8u452-b09",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-portable-1.8.0.452.b09-1.portable.jdk.el.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-1.8.0.452.b09-1.win.jdk.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-1.8.0.452.b09-1.win.jdk.x86_64.zip",
+                        "sha256sum": "4d0b1d7d6992a4f64dcd766c54e5b3f811b6fd8d34d4e8894061521377d1ab49",
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-1.8.0.452.b09-1.win.jdk.x86_64.zip.sha256"
+                    },
+                    "installer": [
+                        {
+                            "name": "java-1.8.0-openjdk-1.8.0.452.b09-1.win.x86_64.msi",
+                            "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-1.8.0.452.b09-1.win.x86_64.msi",
+                            "sha256sum": "78d065215b01680026ca16bdc2c72d16074874d0d944a2191f3d4971e06a6801",
+                            "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-1.8.0.452.b09-1.win.x86_64.msi.sha256",
+                            "installer_type": "msi"
+                        }
+                    ],
+                    "timestamp": "2025-04-16T17:49:15Z",
+                    "openjdk_scm_ref": "shenandoah8u452-b09",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-1.8.0.452.b09-1.win.jdk.x86_64.cert-merged.tar.gz"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jre",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "java-1.8.0-openjdk-1.8.0.452.b09-1.win.jre.x86_64.zip",
+                        "link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-1.8.0.452.b09-1.win.jre.x86_64.zip",
+                        "sha256sum": "3fc52c8cbb66b923d5ad994dd41df1d98afddaca0c9350db5c6ca9df395e5e2f",
+                        "sha256sum_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-1.8.0.452.b09-1.win.jre.x86_64.zip.sha256"
+                    },
+                    "timestamp": "2025-04-16T17:49:15Z",
+                    "openjdk_scm_ref": "shenandoah8u452-b09",
+                    "distribution": "redhat",
+                    "aqavit_results_link": "https://developers.redhat.com/content-gateway/file/pub/openjdk/adoptium/April_2025/java-1.8.0-openjdk-1.8.0.452.b09-1.win.jdk.x86_64.cert-merged.tar.gz"
+                }
+            ]
+        }
+    ]
+}
